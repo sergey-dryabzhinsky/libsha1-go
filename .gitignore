@@ -1,0 +1,10 @@
+# generated files
+/lib-go.so*
+/lib/lib-go.so*
+/lib-go.h
+/include/lib-go.h
+/go.mod
+/test-lib
+/test-lib-speed
+/test-lib-file
+/test-crypto-speed
