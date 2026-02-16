@@ -20,7 +20,7 @@ GOLDFLAGS?=-ldflags="-s -w"
 LIBEXT?=.so
 LIBNAME=libsha1-go
 ldLIBNAME=sha1-go
-VERSION=0.0.5
+VERSION=0.0.1
 VERSION=$(shell grep 'const VERSION' $(LIBNAME).go | cut -d= -f2|tr -d '"')
 ifeq (1,$(DEBUG))
 $(info libsha1-go version:$(VERSION))
